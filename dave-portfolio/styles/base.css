@@ -1,0 +1,94 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+p {
+    font-family: 'Source Sans Pro', 'sans-serif';
+    font-size: 15px;
+}
+
+li {
+    font-family: 'Source Sans Pro', 'sans-serif';
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #4146ff;
+}
+
+.logo {
+    max-width: 180px;
+}
+
+.button {
+    font-family: 'Montserrat', 'sans-serif' ;
+    font-weight: 500;
+    font-size: 17px;
+    background-color: #f1f1f1;
+    color: #4146ff;
+    display: inline-block;
+    border: 2px solid #4146ff;
+    border-radius: 45px;
+    padding: 30px 35px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.button--blue {
+    background-color: #4146ff;
+    color: white;
+    text-align: center;
+}
+
+.card {
+    background-color: #686868;
+    border-radius: 45px; 
+    width: 380px;
+    height: 240px;
+    padding: 20px 0;
+}
+
+
+.content-card {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(12,1fr);
+    justify-content: space-between;
+}
+
+.content-card .title {
+    grid-column: auto / span 5;
+    color: #4146ff;
+    /* align-items: center; */
+}
+
+.content-card .title h3 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.content-card .content {
+    grid-column: auto / span 7;
+}   
+
+.content-card p {
+    margin-top: 0;
+}
